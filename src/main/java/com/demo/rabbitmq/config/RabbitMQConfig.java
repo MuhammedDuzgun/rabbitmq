@@ -24,7 +24,7 @@ public class RabbitMQConfig {
     @Value("${rabbitmq.queue.json.name}")
     private String jsonQueueName;
 
-    @Value("${rabbitmq.routing.json.name}")
+    @Value("${rabbitmq.routing.json.key}")
     private String jsonRoutingKey;
 
     @Bean
